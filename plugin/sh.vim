@@ -1,5 +1,5 @@
 function! Autoformat()
-    if get(g:, "sh_fmt_autosave", 1)
+    if get(g:, "sh_fmt_autosave", 0)
         autocmd BufWritePre * call shfmt#Format()
     endif
 endfunction

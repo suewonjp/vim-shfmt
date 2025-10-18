@@ -9,9 +9,9 @@ files.
 
 Save the file or call `:ShFmt`.
 
-By default vim-shfmt automatically formats *.sh files. You can permanently disable this configuration in your `~/.vimrc` as follows:
+To let vim-shfmt automatically format `*.sh` files whenever you save them, add the following in your `~/.vimrc`:
 
-    let g:sh_fmt_autosave = 0
+    let g:sh_fmt_autosave = 1
 
 
 ## Install
